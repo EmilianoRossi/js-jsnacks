@@ -1,6 +1,6 @@
 let seiNumeriDispariArray=[];
-
-for(let i=0 ; i < 6 ; i++){
+let i =0;
+while(i < 6){
     let numero=parseInt(prompt("inserisci un numero"));
     console.log=(numero);
 
@@ -8,6 +8,7 @@ for(let i=0 ; i < 6 ; i++){
         alert("Inserire numero dispari");
     }else if(numero%2 == 1){
         seiNumeriDispariArray.push(numero);
+        i++;
     }else{
     alert("inserire un numero per favore");
     }
