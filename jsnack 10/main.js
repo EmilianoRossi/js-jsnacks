@@ -1,5 +1,5 @@
 var numeroInserito = parseInt(prompt("imserisci un numero di 4 cifre"));
-    somma = 0;
+somma = 0;
 
 while (numeroInserito) {
     somma += numeroInserito % 10;
